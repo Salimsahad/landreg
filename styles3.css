@@ -1,0 +1,78 @@
+body{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(128, 128, 128, 0.614);
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+.txtbox{
+    border: none;
+    height: 40px;
+    width: 300px;
+    border-radius: 24.5px;
+    margin: 11px;
+}
+.namebox{
+    border: none;
+    height: 40px;
+    width: 150px;
+    border-radius: 24.5px;
+    margin: 11px;
+}
+#imgupload,#adrupload{
+    opacity: 0;
+}
+label{
+    color: rgba(92, 92, 232, 0.735);
+}
+label:hover{
+    color: rgb(0, 0, 255);
+}
+textarea{
+    border: none;
+    border-radius: 9.5px;
+    margin: 10px; 
+}
+#rightdiv{
+    display: flex;
+    align-items: center;
+}
+#but{
+    background-color: rgb(82, 82, 255);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    width: 66px;
+    height: 31px;
+}
+a{
+    font-size: smaller;
+    color: black;
+}
+#signbut{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+#but:hover{
+    background-color: blue;
+}
+a:hover{
+    color: blue;
+}
+input,textarea:focus{
+    outline: none;
+}
+#leftdiv::after{
+    content: "";
+    width: 1px;
+    height: 500px;
+    background-color: grey;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+
+}

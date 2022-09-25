@@ -1,0 +1,89 @@
+body{
+    margin: 0%;
+    
+}
+
+#bg{
+    height: 577px;
+    width: 891px;
+    background-image: url(coverimg.png);
+    background-size: 1019px;
+    background-position-x: -152px;
+    background-position-y: -231px;
+    background-repeat: no-repeat;
+}
+#side{
+    flex-direction: column;
+    background-image: url("blockchain.png");
+    background-repeat: no-repeat;
+    background-position-y: 322px;
+    background-position-x: -78px;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: flex-start;
+    padding: 0%;
+    height: 577px;
+    width: 371px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+div{
+    float: left;
+}
+img{
+    height: 192px;
+    width: 371px;
+}
+#head{
+    font-weight: 900;
+    font-size: xx-large;
+    margin: 0%;
+    color: #047570;
+}
+#subhead{
+    font-weight: 800;
+    font-size: large;
+    margin: 0%;
+}
+#learnmore{
+    font-size: small;
+    font-weight: 200;
+    color: black;
+}
+#login{
+    
+    border-radius: 20px;
+    font-weight: 900;
+    font-size: large;
+    height: 33px;
+    width: 120px;
+    background-color: grey;
+    color: white;
+    border-style: none;
+}
+#signup{
+    border-radius: 20px;
+    font-weight: 900;
+    font-size: large;
+    height: 33px;
+    width: 120px;
+    background-color: grey;
+    color: white;
+    border-style: none;
+}
+#logsin{
+    text-align: center;
+}
+#or{
+    margin: 0%;
+    font-weight: 500;
+}
+#login:hover{
+    background-color: rgb(54, 53, 53);
+}
+#signup:hover{
+    background-color: rgb(54, 53, 53);
+}
+#learnmore:hover{
+ color:blue;
+}
